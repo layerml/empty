@@ -1,12 +1,12 @@
 # New Project Example
-#
-# Any directory includes an `model.yml` will be treated as a ml model project.
-# In this `yaml` file, we will define the attributes of our model.
+
+# Models are created by defining  a `.yaml` with any name and adding `type:model`
 
 apiVersion: 1
 
 # Name and description of our model
-name: "model"
+name: "model name"
+type: model
 description: "My Predictor"
 
 training:
